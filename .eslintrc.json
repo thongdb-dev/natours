@@ -18,6 +18,7 @@
     "node/no-unsupported-features/es-syntax": ["error", {
       "version": ">=8.3.0",
       "ignores": []
-    }]
+    }],
+    "import/no-extraneous-dependencies": ["false", {"devDependencies": false, "optionalDependencies": false, "peerDependencies": false}]
   }
 }
